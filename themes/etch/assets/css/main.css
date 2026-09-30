@@ -1,3 +1,7 @@
+header#banner h2 > a{
+    color: #8352C5 !important;
+}
+
 *, *:before, *:after {
     box-sizing: border-box;
 }
