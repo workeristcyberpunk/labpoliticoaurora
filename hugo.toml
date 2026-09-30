@@ -13,3 +13,6 @@ theme = 'etch'
     title = "Contatti"
     url = "/contatti/"
     weight = 40
+[caches]
+[caches.images]
+dir = ':cacheDir/images'
