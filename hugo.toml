@@ -1,0 +1,15 @@
+baseURL = 'https://example.org/'
+locale = 'it-IT'
+title = 'Laboratorio Politico Aurora'
+theme = 'etch'
+[params]
+    description = "Laboratorio Politico Aurora"
+    copyright = "LabPolitico Aurora - 2026"
+    dark = "auto"
+[menu]
+    [[menu.main]]
+    identifier = "Contatti"
+    name = "Contatti"
+    title = "Contatti"
+    url = "/contatti/"
+    weight = 40
