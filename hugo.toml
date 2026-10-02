@@ -4,7 +4,6 @@ title = 'Laboratorio Politico Aurora'
 theme = 'etch'
 [params]
     description = "Laboratorio Politico Aurora"
-    copyright = "LabPolitico Aurora - 2026"
     dark = "auto"
 [menu]
     [[menu.main]]
