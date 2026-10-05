@@ -1,0 +1,35 @@
+header#banner h2 > a{
+    color: #998efd !important;
+}
+
+.footnote-ref{
+    font-size: 11px !important;
+}
+sup{
+    vertical-align: top!important;
+}
+
+main#content p{
+    font-size: 17px !important;
+    text-align: justify !important;
+}
+#post-header h1{
+    font-size: 28px !important;
+    font-weight: 800 !important;
+}
+
+img{
+    margin: 0px !important;
+    max-width: 100% !important;
+}
+@media (min-width: 770px) {
+    body{
+        width: 750px !important;
+    }
+    img{
+        /*display: block;*/
+        /*height: 330px !important;*/
+        /*margin: auto !important;*/
+        /*width: 80% !important;*/
+    }
+}
