@@ -1,7 +1,7 @@
 baseURL = 'https://example.org/'
 locale = 'it-IT'
 title = 'Laboratorio Politico Aurora'
-theme = 'etch'
+theme = ['etch']
 [params]
     description = "Laboratorio Politico Aurora"
     dark = "auto"
