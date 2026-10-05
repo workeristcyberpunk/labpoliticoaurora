@@ -5,6 +5,7 @@ theme = 'etch'
 [params]
     description = "Laboratorio Politico Aurora"
     dark = "auto"
+    custom_css = ["custom.css"]
 [menu]
     [[menu.main]]
     identifier = "Contatti"
