@@ -1,1 +1,1 @@
-*Per un arsenale teorico collettivo.*
+![banner](./banner.png)
