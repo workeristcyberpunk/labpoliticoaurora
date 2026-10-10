@@ -1,5 +1,5 @@
 +++
-date = '2026-09-30T10:59:20+02:00'
+date = '2026-09-30'
 draft = false
 title = 'Blocchiamo tutto! Ethics, Subjectivity and the Crisis of Political Forms in Italian Gaza Protests'
 +++

@@ -1,1 +1,1 @@
-![banner](./banner.png)
+![banner](/images/banner.png)

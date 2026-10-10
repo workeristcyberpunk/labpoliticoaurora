@@ -1,3 +1,7 @@
+p{
+    font-family: "Libertinus Serif", serif !important;
+}
+
 header#banner h2 > a{
     color: #998efd !important;
 }
@@ -10,11 +14,11 @@ sup{
 }
 
 main#content p{
-    font-size: 17px !important;
+    font-size: 20px !important;
     text-align: justify !important;
 }
 #post-header h1{
-    font-size: 28px !important;
+    font-size: 32px !important;
     font-weight: 800 !important;
 }
 
@@ -32,4 +36,42 @@ img{
         /*margin: auto !important;*/
         /*width: 80% !important;*/
     }
+}
+
+
+
+.libertinus-serif-regular {
+    font-family: "Libertinus Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.libertinus-serif-semibold {
+    font-family: "Libertinus Serif", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.libertinus-serif-bold {
+    font-family: "Libertinus Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.libertinus-serif-regular-italic {
+    font-family: "Libertinus Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.libertinus-serif-semibold-italic {
+    font-family: "Libertinus Serif", serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.libertinus-serif-bold-italic {
+    font-family: "Libertinus Serif", serif;
+    font-weight: 700;
+    font-style: italic;
 }
