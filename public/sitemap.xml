@@ -5,18 +5,18 @@
     <loc>http://localhost:1313/</loc>
     <lastmod>2026-10-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/modelloemilia/</loc>
+    <loc>http://localhost:1313/pubblicazioni/modelloemilia/</loc>
     <lastmod>2026-10-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://localhost:1313/pubblicazioni/</loc>
     <lastmod>2026-10-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/blocchiamotutto/</loc>
+    <loc>http://localhost:1313/pubblicazioni/blocchiamotutto/</loc>
     <lastmod>2026-09-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-  </url><url>
     <loc>http://localhost:1313/contatti/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url>

@@ -1,9 +1,20 @@
 p{
     font-family: "Libertinus Serif", serif !important;
 }
+#posts a{
+    /*text-decoration: underline 2px !important;*/
+    border-bottom: 3px solid !important;
+    border-bottom-color: #998efd !important;
+    color: unset !important;
+    line-height: 1.5;
+}
+#posts li{
+    padding-bottom: 12px !important;
+}
 
-header#banner h2 > a{
+header#banner h2 a{
     color: #998efd !important;
+    font-size: 40px !important;
 }
 
 .footnote-ref{
@@ -18,7 +29,6 @@ sup{
 
 main#content p{
     font-size: 20px !important;
-    text-align: justify;
 }
 #post-header h1{
     font-size: 40px !important;
@@ -26,12 +36,15 @@ main#content p{
 }
 
 img{
-    margin: 0px !important;
+    margin: 0 !important;
     max-width: 100% !important;
 }
 @media (min-width: 770px) {
     body{
         width: 750px !important;
+    }
+    main#content p{
+        text-align: justify;
     }
     img{
         /*display: block;*/
