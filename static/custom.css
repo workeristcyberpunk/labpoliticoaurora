@@ -1,13 +1,50 @@
 p{
     font-family: "Libertinus Serif", serif !important;
 }
+body{
+    font-family: "Inter", sans-serif !important;
+}
 #posts a{
+    display: inline-block;
+    position: relative;
     /*text-decoration: underline 2px !important;*/
-    border-bottom: 3px solid !important;
-    border-bottom-color: #998efd !important;
+    /*border-bottom: 3px solid !important;*/
+    /*border-bottom-color: #998efd !important;*/
     color: unset !important;
     line-height: 1.5;
 }
+#posts a::after {
+    content: '';
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    height: .4rem;
+    width: 105%;
+    background: #998efd;
+    z-index: -1;
+}
+#posts a:hover{
+    color: #998efd !important;
+}
+#posts a:hover::after {
+    height: .5rem;
+}
+
+@media (prefers-color-scheme: dark) {
+    #posts a:hover::after {
+        background-color: white;
+    }
+}
+/*#posts a:hover::after{*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    bottom: 0%;*/
+/*    left: 0;*/
+/*    height: 2.5rem;*/
+/*    width: 105%;*/
+/*    background: #998efd;*/
+/*    z-index: -1;*/
+/*}*/
 #posts li{
     padding-bottom: 12px !important;
 }
@@ -27,7 +64,7 @@ sup{
 }
 
 main#content p{
-    font-size: 20px !important;
+    font-size: 21px !important;
 }
 #post-header h1{
     font-size: 40px !important;
