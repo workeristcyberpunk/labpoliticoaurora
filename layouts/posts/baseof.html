@@ -1,6 +1,4 @@
 <html>
-{{- partial "head.html" . -}}
-
     <head>
         <title>{{ .Title }}</title>
         {{ range .Site.Params.custom_css -}}
@@ -19,6 +17,7 @@
         <meta name="apple-mobile-web-app-title" content="LPAurora" />
         <link rel="manifest" href="favicon/site.webmanifest" />
     </head>
+    {{- partial "head.html" . -}}
     <body>
     {{- partial "header.html" . -}}
     <main id="content">
