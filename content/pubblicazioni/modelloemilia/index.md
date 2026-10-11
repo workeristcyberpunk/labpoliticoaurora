@@ -4,7 +4,7 @@ draft = false
 title = 'Il "modello Emilia" e la fabbrica della guerra'
 +++
 *Una mappatura genealogica dell'infrastruttura industriale emiliana. Per un'inchiesta sui progetti guerrafondai del capitale e sulle trasformazioni del territorio.
-Link alla [mappa](images/modelloemilia.png)*
+Guarda la [mappa](images/modelloemilia2.png).*
 
 
 
