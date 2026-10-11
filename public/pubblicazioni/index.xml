@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pubblicazionis on Laboratorio Politico Aurora</title>
-    <link>http://localhost:1313/pubblicazioni/</link>
+    <link>https://example.org/pubblicazioni/</link>
     <description>Recent content in Pubblicazionis on Laboratorio Politico Aurora</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-IT</language>
     <lastBuildDate>Sat, 10 Oct 2026 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/pubblicazioni/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://example.org/pubblicazioni/index.xml" rel="self" type="application/rss+xml" />
     
     
     
