@@ -14,7 +14,6 @@ p{
 
 header#banner h2 a{
     color: #998efd !important;
-    font-size: 40px !important;
 }
 
 .footnote-ref{
@@ -45,6 +44,9 @@ img{
     }
     main#content p{
         text-align: justify;
+    }
+    header#banner h2{
+        font-size: 40px !important;
     }
     img{
         /*display: block;*/
