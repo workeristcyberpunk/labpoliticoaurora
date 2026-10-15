@@ -1,4 +1,4 @@
-baseURL = 'labpoliticoaurora.org'
+baseURL = 'https://www.labpoliticoaurora.org/'
 locale = 'it-IT'
 title = 'Laboratorio Politico Aurora'
 theme = ['etch']
