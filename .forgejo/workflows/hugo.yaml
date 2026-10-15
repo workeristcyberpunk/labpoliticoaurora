@@ -22,7 +22,7 @@ jobs:
       TZ: Europe/Rome
 
       # Set the Hugo base URL
-      HUGO_BASEURL: https://${{ forgejo.event.repository.owner.username }}.codeberg.page/${{ forgejo.event.repository.name }}/
+      HUGO_BASEURL: https://labpoliticoaurora.org
     steps:
       - name: Checkout
         uses: actions/checkout@v7
@@ -134,3 +134,11 @@ jobs:
       - name: Print base URL
         run: |
           echo "Base URL: ${HUGO_BASEURL}"
+          name: Deploy
+  uses: actions/git-pages@v2
+  with:
+    site: ${{ env.HUGO_BASEURL }}
+    server: codeberg.page
+    token: ${{ forgejo.token }}
+    source: public/
+
