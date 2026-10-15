@@ -135,10 +135,11 @@ jobs:
         run: |
           echo "Base URL: ${HUGO_BASEURL}"
           name: Deploy
-  uses: actions/git-pages@v2
-  with:
-    site: ${{ env.HUGO_BASEURL }}
-    server: codeberg.page
-    token: ${{ forgejo.token }}
-    source: public/
+      - name: Deploy
+        uses: actions/git-pages@v2
+        with:
+          site: ${{ env.HUGO_BASEURL }}
+          server: codeberg.page
+          token: ${{ forgejo.token }}
+          source: public/
 
