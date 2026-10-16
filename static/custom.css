@@ -93,16 +93,23 @@ img{
     }
 }
 
-#banner{
+#banner, #footer{
     display: flex;
     justify-content: center;
+    gap: 10px;
 }
 
 #logo_header{
     max-width: 200px !important;
     margin: 0 !important;
 }
-
+#footer{
+    padding-top: 40px !important;
+}
+#footer a{
+    color: unset !important;
+    text-decoration: underline 1.5px #998efd;
+}
 
 
 .libertinus-serif-regular {
