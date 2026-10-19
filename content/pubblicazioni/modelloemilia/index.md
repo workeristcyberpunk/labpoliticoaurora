@@ -1,7 +1,7 @@
 +++
-date = '2026-10-10'
+date = '2026-10-19'
 draft = false
-title = 'Il "modello Emilia" e la fabbrica della guerra'
+title = 'Bologna e il "modello Emilia" nella fabbrica della guerra'
 +++
 *Una mappatura genealogica dell'infrastruttura industriale emiliana. Per un'inchiesta sui progetti guerrafondai del capitale e sulle trasformazioni del territorio.
 Guarda la [mappa](images/modelloemilia2.png).*
